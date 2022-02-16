@@ -1,0 +1,75 @@
+body {
+	background: rgb(124, 124, 124);
+}
+.container {
+	position: relative;
+	margin: 10px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+}
+.discription {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+td {
+	cursor: pointer;
+	background: #000;
+	width: 50px;
+	height: 50px;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+.hidden__cell {
+}
+
+.open__ceil {
+	background: yellow;
+}
+
+#winner {
+	display: none;
+	position: absolute;
+	background-color: white;
+}
+
+.winner {
+	color: green;
+}
+
+.loser {
+	color: red;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	padding: 5px 15px;
+	font-size: 16px;
+	margin: 5px;
+}
+
+p {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.play {
+	text-align: center;
+	position: absolute;
+	top: -55px;
+}
+.timer {
+	text-align: center;
+}
+.timer span {
+	color: yellow;
+	font-size: 50px;
+	opacity: 0;
+}
