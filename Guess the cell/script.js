@@ -19,8 +19,6 @@ document.querySelector('#yes').addEventListener('click', () => {
 	complite = false
 })
 
-document.querySelector('#no').addEventListener('click', () => window.close())
-
 function getRandomCells() {
 	let counterCells = 0
 	while (counterCells < 10) {
