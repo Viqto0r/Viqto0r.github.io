@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://kit.fontawesome.com/f81772d8bb.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Гороскоп</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Гороскоп</h1>
+		<h2>Предсказания Павла Глобы на кругах Виктора</h2>
+		<h3>точность прогноза <strong>99,99%</strong></h3>
+		<div class="main">
+			<p>
+			<h5>Выберите дату своего рождения</h5>
+			<input type="date" id="input">
+			</p>
+			<p>
+				<input type="radio" name="day" id="today" checked><label for="today"><i class="fa-solid fa-star"></i>На
+					<span>сегодня</span></label>
+				<input type="radio" name="day" id="tomorrow"><label for="tomorrow"><i class="fa-solid fa-star"></i></i>На
+					<span>завтра</span></label>
+				<input type="radio" name="day" id="dayaftertomorrow"><label for="dayaftertomorrow"><i
+						class="fa-solid fa-star"></i>На
+					<span>послезавтра</span></label>
+			</p>
+			<button id="show">Показать</button>
+		</div>
+
+		<div id="out">
+			<h2 class="sign"></h2>
+			<p class="prediction"></p>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
